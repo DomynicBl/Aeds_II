@@ -1,0 +1,148 @@
+
+Array de tamanho 100 (Random)
+standard - Tempo de execução: 0ms, Comparações: 543, movimentações: 183
+first - Tempo de execução: 0ms, Comparações: 495, movimentações: 194
+last - Tempo de execução: 0ms, Comparações: 492, movimentações: 190
+random - Tempo de execução: 0ms, Comparações: 501, movimentações: 181
+median - Tempo de execução: 0ms, Comparações: 401, movimentações: 191
+
+Array de tamanho 100 (Sorted)
+standard - Tempo de execução: 0ms, Comparações: 482, movimentações: 181
+first - Tempo de execução: 0ms, Comparações: 532, movimentações: 186
+last - Tempo de execução: 0ms, Comparações: 510, movimentações: 185
+random - Tempo de execução: 0ms, Comparações: 472, movimentações: 175
+median - Tempo de execução: 0ms, Comparações: 478, movimentações: 182
+
+Array de tamanho 100 (Reversed Sorted)
+standard - Tempo de execução: 0ms, Comparações: 545, movimentações: 174
+first - Tempo de execução: 0ms, Comparações: 644, movimentações: 178
+last - Tempo de execução: 0ms, Comparações: 673, movimentações: 181
+random - Tempo de execução: 0ms, Comparações: 511, movimentações: 176
+median - Tempo de execução: 0ms, Comparações: 501, movimentações: 180
+
+Array de tamanho 100 (Almost Sorted)
+standard - Tempo de execução: 0ms, Comparações: 382, movimentações: 179
+first - Tempo de execução: 0ms, Comparações: 449, movimentações: 190
+last - Tempo de execução: 0ms, Comparações: 455, movimentações: 193
+random - Tempo de execução: 0ms, Comparações: 484, movimentações: 180
+median - Tempo de execução: 0ms, Comparações: 378, movimentações: 185
+
+//------------------------------------------------------------------------//
+
+Array de tamanho 1000 (Random)
+standard - Tempo de execução: 1ms, Comparações: 7513, movimentações: 2589
+first - Tempo de execução: 0ms, Comparações: 8308, movimentações: 2657
+last - Tempo de execução: 1ms, Comparações: 8510, movimentações: 2646
+random - Tempo de execução: 1ms, Comparações: 11158, movimentações: 2531
+median - Tempo de execução: 0ms, Comparações: 6456, movimentações: 2661
+
+Array de tamanho 1000 (Sorted)
+standard - Tempo de execução: 0ms, Comparações: 8035, movimentações: 2585
+first - Tempo de execução: 0ms, Comparações: 9019, movimentações: 2656
+last - Tempo de execução: 0ms, Comparações: 8672, movimentações: 2640
+random - Tempo de execução: 1ms, Comparações: 7680, movimentações: 2586
+median - Tempo de execução: 0ms, Comparações: 5886, movimentações: 2706
+
+Array de tamanho 1000 (Reversed Sorted)
+standard - Tempo de execução: 0ms, Comparações: 7305, movimentações: 2583
+first - Tempo de execução: 0ms, Comparações: 9531, movimentações: 2605
+last - Tempo de execução: 0ms, Comparações: 8943, movimentações: 2667
+random - Tempo de execução: 0ms, Comparações: 8018, movimentações: 2609
+median - Tempo de execução: 0ms, Comparações: 6076, movimentações: 2653
+
+Array de tamanho 1000 (Almost Sorted)
+standard - Tempo de execução: 0ms, Comparações: 7597, movimentações: 2575
+first - Tempo de execução: 0ms, Comparações: 8353, movimentações: 2644
+last - Tempo de execução: 0ms, Comparações: 9067, movimentações: 2652
+random - Tempo de execução: 0ms, Comparações: 7785, movimentações: 2618
+median - Tempo de execução: 0ms, Comparações: 6515, movimentações: 2686
+
+//------------------------------------------------------------------------//
+
+Array de tamanho 10000 (Random)
+standard - Tempo de execução: 2ms, Comparações: 105531, movimentações: 33690
+first - Tempo de execução: 1ms, Comparações: 118741, movimentações: 34339
+last - Tempo de execução: 1ms, Comparações: 126911, movimentações: 34306
+random - Tempo de execução: 3ms, Comparações: 100195, movimentações: 34117
+median - Tempo de execução: 1ms, Comparações: 85294, movimentações: 34824
+
+Array de tamanho 10000 (Sorted)
+standard - Tempo de execução: 2ms, Comparações: 98491, movimentações: 33885
+first - Tempo de execução: 1ms, Comparações: 147550, movimentações: 33546
+last - Tempo de execução: 1ms, Comparações: 129605, movimentações: 34063
+random - Tempo de execução: 2ms, Comparações: 109156, movimentações: 33991
+median - Tempo de execução: 2ms, Comparações: 87555, movimentações: 34666
+
+Array de tamanho 10000 (Reversed Sorted)
+standard - Tempo de execução: 1ms, Comparações: 96378, movimentações: 34059
+first - Tempo de execução: 1ms, Comparações: 120110, movimentações: 34158
+last - Tempo de execução: 1ms, Comparações: 118987, movimentações: 34396
+random - Tempo de execução: 3ms, Comparações: 111894, movimentações: 33972
+median - Tempo de execução: 2ms, Comparações: 85869, movimentações: 34701
+
+Array de tamanho 10000 (Almost Sorted)
+standard - Tempo de execução: 2ms, Comparações: 116947, movimentações: 33273
+first - Tempo de execução: 1ms, Comparações: 125384, movimentações: 34133
+last - Tempo de execução: 2ms, Comparações: 128910, movimentações: 34006
+random - Tempo de execução: 3ms, Comparações: 101044, movimentações: 34174
+median - Tempo de execução: 1ms, Comparações: 90697, movimentações: 34428
+
+//------------------------------------------------------------------------//
+
+Array de tamanho 100000 (Random)
+standard - Tempo de execução: 11ms, Comparações: 1329108, movimentações: 414293
+first - Tempo de execução: 10ms, Comparações: 1580580, movimentações: 418720
+last - Tempo de execução: 10ms, Comparações: 1611870, movimentações: 417132
+random - Tempo de execução: 28ms, Comparações: 1313737, movimentações: 419173
+median - Tempo de execução: 10ms, Comparações: 1096677, movimentações: 426701
+
+Array de tamanho 100000 (Sorted)
+standard - Tempo de execução: 9ms, Comparações: 1307649, movimentações: 415103
+first - Tempo de execução: 10ms, Comparações: 1800137, movimentações: 414212
+last - Tempo de execução: 10ms, Comparações: 1721979, movimentações: 417786
+random - Tempo de execução: 21ms, Comparações: 1330877, movimentações: 419843
+median - Tempo de execução: 11ms, Comparações: 1196827, movimentações: 421751
+
+Array de tamanho 100000 (Reversed Sorted)
+standard - Tempo de execução: 10ms, Comparações: 1336963, movimentações: 414597
+first - Tempo de execução: 10ms, Comparações: 1576793, movimentações: 418680
+last - Tempo de execução: 9ms, Comparações: 1623058, movimentações: 418423
+random - Tempo de execução: 22ms, Comparações: 1454855, movimentações: 414786
+median - Tempo de execução: 11ms, Comparações: 1130143, movimentações: 426015
+
+Array de tamanho 100000 (Almost Sorted)
+standard - Tempo de execução: 10ms, Comparações: 1368176, movimentações: 415439
+first - Tempo de execução: 10ms, Comparações: 1707958, movimentações: 417275
+last - Tempo de execução: 10ms, Comparações: 1728782, movimentações: 413886
+random - Tempo de execução: 15ms, Comparações: 1312049, movimentações: 419512
+median - Tempo de execução: 11ms, Comparações: 1185625, movimentações: 424522
+
+//------------------------------------------------------------------------//
+
+Array de tamanho 1000000 (Random)
+standard - Tempo de execução: 133ms, Comparações: 15433806, movimentações: 5017993
+first - Tempo de execução: 128ms, Comparações: 19023839, movimentações: 5037144
+last - Tempo de execução: 133ms, Comparações: 19521370, movimentações: 5009234
+random - Tempo de execução: 224ms, Comparações: 16227458, movimentações: 5010241
+median - Tempo de execução: 132ms, Comparações: 13379214, movimentações: 5123742
+
+Array de tamanho 1000000 (Sorted)
+standard - Tempo de execução: 111ms, Comparações: 16395499, movimentações: 4986240
+first - Tempo de execução: 117ms, Comparações: 20954311, movimentações: 4964694
+last - Tempo de execução: 123ms, Comparações: 18341230, movimentações: 5044850
+random - Tempo de execução: 173ms, Comparações: 16469948, movimentações: 5007899
+median - Tempo de execução: 129ms, Comparações: 13355633, movimentações: 5123189
+
+Array de tamanho 1000000 (Reversed Sorted)
+standard - Tempo de execução: 122ms, Comparações: 15821466, movimentações: 5001470
+first - Tempo de execução: 118ms, Comparações: 19531343, movimentações: 5008861
+last - Tempo de execução: 110ms, Comparações: 19453035, movimentações: 5003361
+random - Tempo de execução: 206ms, Comparações: 15819331, movimentações: 5032557
+median - Tempo de execução: 123ms, Comparações: 13199323, movimentações: 5140023
+
+Array de tamanho 1000000 (Almost Sorted)
+standard - Tempo de execução: 113ms, Comparações: 17034219, movimentações: 4981589
+first - Tempo de execução: 119ms, Comparações: 18428738, movimentações: 5053855
+last - Tempo de execução: 158ms, Comparações: 18746615, movimentações: 5034062
+random - Tempo de execução: 178ms, Comparações: 15856198, movimentações: 5027486
+median - Tempo de execução: 121ms, Comparações: 13280306, movimentações: 5136704
