@@ -157,23 +157,6 @@ void extrairHabilidades(const char *habilidadesStr, Lista *habilidades) {// Fun�
 
 //--------------------------------------------------------------------------------------------
 
-void adicionarPokedex(Pokedex *pokedex, Pokemon pokemon) {
-    if (pokedex->count < MAX_POKEMONS) {
-        pokedex->pokemons[pokedex->count] = pokemon; // Adiciona o Pokémon
-        pokedex->count++; // Incrementa a contagem
-    } else {
-        printf("Pokedex cheia! Não é possível adicionar mais Pokémons.\n");
-    }
-}
-
-/*void imprimirPokedex(const Pokedex *pokedex) {
-    for (int i = 0; i < pokedex->count; i++) {
-        imprimir(&(pokedex->pokemons[i])); // Usa a função de impressão ja existente
-    }
-}*/
-
-//--------------------------------------------------------------------------------------------
-
 void criarPokemon(Pokemon *pokemon, const char *pokemonAtual) {// Função para criar um Pokémon a partir da string do Pokémon
     char input[MAX_TOKENS][MAX_TAM_POKE_ATUAL];
     int num_tokens = 0;
@@ -272,7 +255,24 @@ void imprimir(const Pokemon *pokemon) {// Função para imprimir os atributos do
 
 //--------------------------------------------------------------------------------------------
 
-void procurarPokemon(int id) {
+void adicionarPokedex(Pokedex *pokedex, Pokemon pokemon) {
+    if (pokedex->count < MAX_POKEMONS) {
+        pokedex->pokemons[pokedex->count] = pokemon; // Adiciona o Pokémon
+        pokedex->count++; // Incrementa a contagem
+    } else {
+        printf("Pokedex cheia! Não é possível adicionar mais Pokémons.\n");
+    }
+}
+
+void imprimirPokedex(const Pokedex *pokedex) {
+    for (int i = 0; i < pokedex->count; i++) {
+        imprimir(&(pokedex->pokemons[i])); // Usa a função de impressão ja existente
+    }
+}
+
+//--------------------------------------------------------------------------------------------
+
+void procurarPokemon(int id, Pokedex *pokedex) {
     FILE *arquivoCSV = fopen("/tmp/pokemon.csv", "r");// Verifica se o arquivo existe no Diretorio do Verde
 
     if (arquivoCSV == NULL) {// Se não existir, tenta o Diretorio local
@@ -292,12 +292,12 @@ void procurarPokemon(int id) {
             Pokemon pokemon; // Cria o pokemon com os dados do pokemon atual
             inicializarPokemon(&pokemon); // Inicializa o pokemon
             criarPokemon(&pokemon, pokemonAtual); // Adiciona os dados do pokemon atual ao pokemon
-            //adicionarPokedex(&pokedex, pokemon); // Adiciona o Pokémon à Pokedex
+            adicionarPokedex(pokedex, pokemon); // Adiciona o Pokémon à Pokedex
             imprimir(&pokemon); // Imprime os dados do pokemon
             encontrado = true; // Encerra a busca
         }
     }
-    
+
     fclose(arquivoCSV);
 }
 
@@ -316,9 +316,11 @@ int main() {
             abort = true;
         } else {
             int id = atoi(input);
-            procurarPokemon(id);
+            procurarPokemon(id, &pokedex);
         }
     }
+
+    //imprimirPokedex(&pokedex); // Imprime a Pokedex
 
     return 0;
 }

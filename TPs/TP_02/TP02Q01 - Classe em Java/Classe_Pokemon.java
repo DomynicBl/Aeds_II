@@ -354,5 +354,7 @@ public class Classe_Pokemon{
                 }
             }
         }
+
+        scanner.close();
     }
 }
